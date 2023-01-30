@@ -13,12 +13,69 @@ body{
   background-size: cover;
   
 }
+#menu > #button_top{
+  position: absolute;
+}
+.group {
+  display: flex;
+  line-height: 15px;
+  align-items: center;
+  position: relative;
+  max-width: 190px;
+  margin-left: 87%;
+  color: #fff;
+ }
+ .group{
+  position: fixed;
+  top: 1%;
+
+ }
+ 
+ .input {
+  
+  width: 100%;
+  height: 40px;
+  line-height: 28px;
+  padding: 0 1rem;
+  padding-left: 2.5rem;
+  border: 2px solid transparent;
+  border-radius: 8px;
+  outline: none;
+  background-color: #28353d;
+  color: #0d0c22;
+  transition: .3s ease;
+ }
+ 
+ .input::placeholder {
+  color: #f3f3f5;
+ }
+ 
+ .input:focus, input:hover {
+  outline: none;
+  border-color: rgba(16, 1, 7, 0.4);
+  background-color: #28353d;
+  box-shadow: 0 0 0 4px rgb(234 76 137 / 10%);
+  color: #fff;
+ }
+ 
+ .icon {
+  position: absolute;
+  left: 1rem;
+  fill: #9e9ea7;
+  width: 1rem;
+  height: 1rem;
+ }
+ 
 .product_list .product_item a img {
   border-radius: 40px 60px;
 }
-#menu{
-  position: relative;
+#menu ul{
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
+
+
 #menu .submenu li button:active{
 box-shadow: none;
 transform: translateY(3px);
@@ -131,6 +188,11 @@ position: relative;
   display: block;
   margin-left: auto;
   margin-right: auto;
+  transition: all .2s;
+  position: -webkit-sticky;
+}
+.product_list .product_item img:hover{
+  transform: scale(1.1);
 }
 button {
   /* Variables */

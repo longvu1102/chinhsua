@@ -5,12 +5,15 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bo suu tap</title>
+    <link rel="csl" href="imdex.css">
 </head>
 <style>
+    
     body{
         background: #28353d;;
         color: aliceblue;
         font-family: Arial, Helvetica, sans-serif;
+        text-transform: uppercase;
     }
     .heading{
         text-align: center;
@@ -29,7 +32,8 @@
         margin-right: auto;
     }
     .pro .pru li {
-       
+        
+       height: 300px;
         margin-left: auto;
         margin-right: auto;
         text-align: center;
@@ -37,53 +41,72 @@
         display: inline-block;
         width: 355px;
     }
+    .pro .pru li button:hover{
+        transform: translateY(-4px);
+        transition: 0.2s;
+    }
     .pro .pru li span{
         display: block;
         text-align: center;
+    }
+    .lv{
+        border: 3px solid black;
+    }
+    h3{
+        display: block;
+        margin-left: 2%;
+    }
+    button{
+        border-radius:0.75em ;
+        color: #120101;
+        background-color: rgb(249, 243, 243);
+        font-size: 12px;
+        font-weight: bold;
+        border: none;
+       
     }
 </style>
 <body>
    
     <div class="heading">
-        <h2>DANH MỤC SẢN PHẨM</h2>
+        <h2>BỘ SƯU TẬP THU ĐÔNG</h2>
     </div>
     <div class="pro">
         <ul class="pru">
-            <li> <img src="z3817949948806_38c7f246a2c784168f88a9f343abf8f2.jpg" alt=""><br>
-                 <Span>AO</Span>  <span id="buy">260$</span></li>
-            <li> <img src="z3817949948806_38c7f246a2c784168f88a9f343abf8f2.jpg" alt=""><br>
-                 <Span>AO</Span>  <span id="buy">260$</span></li>
-            <li> <img src="z3817949948806_38c7f246a2c784168f88a9f343abf8f2.jpg" alt=""> <br>
-                <Span>AO</Span>  <span id="buy">260$</span></li>
-            <li> <img src="z3817949948806_38c7f246a2c784168f88a9f343abf8f2.jpg" alt=""><br>
-                 <Span>AO</Span>  <span id="buy">260$</span></li>
-            <li> <img src="z3817949948806_38c7f246a2c784168f88a9f343abf8f2.jpg" alt=""> <br>
-                <Span>AO</Span>  <span id="buy">260$</span></li>
-            <li> <img src="z3817949948806_38c7f246a2c784168f88a9f343abf8f2.jpg" alt=""><br>
-                 <Span>AO</Span>  <span id="buy">260$</span></li>
-            <li> <img src="z3817949948806_38c7f246a2c784168f88a9f343abf8f2.jpg" alt=""><br>
-                 <Span>AO</Span>  <span id="buy">260$</span></li>
-            <li> <img src="z3817949948806_38c7f246a2c784168f88a9f343abf8f2.jpg" alt=""><br>
-                 <Span>AO</Span>  <span id="buy">260$</span></li>
-                 <li> <img src="z3817949948806_38c7f246a2c784168f88a9f343abf8f2.jpg" alt=""><br>
-                    <Span>AO</Span>  <span id="buy">260$</span></li>
-               <li> <img src="z3817949948806_38c7f246a2c784168f88a9f343abf8f2.jpg" alt=""><br>
-                    <Span>AO</Span>  <span id="buy">260$</span></li>
-               <li> <img src="z3817949948806_38c7f246a2c784168f88a9f343abf8f2.jpg" alt=""> <br>
-                   <Span>AO</Span>  <span id="buy">260$</span></li>
-               <li> <img src="z3817949948806_38c7f246a2c784168f88a9f343abf8f2.jpg" alt=""><br>
-                    <Span>AO</Span>  <span id="buy">260$</span></li>
-               <li> <img src="z3817949948806_38c7f246a2c784168f88a9f343abf8f2.jpg" alt=""> <br>
-                   <Span>AO</Span>  <span id="buy">260$</span></li>
-               <li> <img src="z3817949948806_38c7f246a2c784168f88a9f343abf8f2.jpg" alt=""><br>
-                    <Span>AO</Span>  <span id="buy">260$</span></li>
-               <li> <img src="z3817949948806_38c7f246a2c784168f88a9f343abf8f2.jpg" alt=""><br>
-                    <Span>AO</Span>  <span id="buy">260$</span></li>
-               <li> <img src="z3817949948806_38c7f246a2c784168f88a9f343abf8f2.jpg" alt=""><br>
-                    <Span>AO</Span>  <span id="buy">260$</span></li>
+        <div class="lv"><h3>Bộ sưu tập thu đông</h3> 
+            <li> <img src="STANSMITH-BLUE-01.jpg" alt=""><br>
+                 <Span>Giày ADIDAS</Span>  <span id="buy"> <button onclick="confirm('Bạn có muốn mua sản phẩm này không ? ')"> 260$</button></span></li>
+            <li> <img src="sg-11134201-22110-zssrkjiu67jv0b_tn.jpg" alt=""><br>
+                 <Span>AO NIKE</Span>  <span id="buy"> <button onclick="confirm('Bạn có muốn mua sản phẩm này không ? ')"> 260$</button></span></li>
+            <li> <img src="fdeba5c03321c9ace09c6a1e08987716_tn.jpg" alt=""> <br>
+                <Span>QUẦN C-RAY</Span>  <span id="buy"> <button onclick="confirm('Bạn có muốn mua sản phẩm này không ? ')"> 260$</button></span></li>
+            <li> <img src="31a9f704d1d1be06c10eb9e7365fb10f_tn.jpg" alt=""><br>
+                 <Span>vasity</Span>  <span id="buy"> <button onclick="confirm('Bạn có muốn mua sản phẩm này không ? ')"> 260$</button></span></li>
+        </div>
+        <div class="lv"><h3>Bộ sưu tập mùa hè</h3>    
+        <li> <img src="c943b5f5-4ec4-43f6-b83f-4011b5ccc614_1.135f351d95659cd725236037f46fddf9.jpeg" alt=""> <br>
+                <Span>AO</Span>  <span id="buy"> <button onclick="confirm('Bạn có muốn mua sản phẩm này không ? ')"> 260$</button></span></li>
+            <li> <img src="31a9f704d1d1be06c10eb9e7365fb10f_tn.jpg" alt=""><br>
+                 <Span>AO</Span>  <span id="buy"> <button onclick="confirm('Bạn có muốn mua sản phẩm này không ? ')"> 260$</button></span></li>
+            <li> <img src="images.jpg" alt=""><br>
+                 <Span>AO</Span>  <span id="buy"> <button onclick="confirm('Bạn có muốn mua sản phẩm này không ? ')"> 260$</button></span></li>
+            <li> <img src="ULTRABOOST-20-SHOES-10.jpg" alt=""><br>
+                 <Span>AO</Span>  <span id="buy"> <button onclick="confirm('Bạn có muốn mua sản phẩm này không ? ')"> 260$</button></span></li>
+        </div>
+        <div class="lv"><h3>Bộ sưu tập thu đông</h3>
+                 <li> <img src="s-l1600.jpg" alt=""><br>
+                    <Span>AO</Span>  <span id="buy"> <button onclick="confirm('Bạn có muốn mua sản phẩm này không ? ')"> 260$</button></span></li>
+               <li> <img src="c943b5f5-4ec4-43f6-b83f-4011b5ccc614_1.135f351d95659cd725236037f46fddf9.jpeg" alt=""><br>
+                    <Span>AO</Span>  <span id="buy"> <button onclick="confirm('Bạn có muốn mua sản phẩm này không ? ')"> 260$</button></span></li>
+               <li> <img src="11694470_hi.jpg" alt=""> <br>
+                   <Span>AO</Span>  <span id="buy"> <button onclick="confirm('Bạn có muốn mua sản phẩm này không ? ')"> 260$</button></span></li>
+               <li> <img src="c943b5f5-4ec4-43f6-b83f-4011b5ccc614_1.135f351d95659cd725236037f46fddf9.jpeg" alt=""><br>
+                    <Span>AO</Span><span id="buy"> <button onclick="confirm('Bạn có muốn mua sản phẩm này không ? ')"> 260$</button></span></li>
+        </div>
+             <script>
+               
+             </script>
             
            
         </ul>
     </div>
-</body>
-</html>
