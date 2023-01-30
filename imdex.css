@@ -13,9 +13,8 @@ body{
   background-size: cover;
   
 }
-#menu > #button_top{
-  position: absolute;
-}
+
+
 .group {
   display: flex;
   line-height: 15px;
@@ -69,11 +68,7 @@ body{
 .product_list .product_item a img {
   border-radius: 40px 60px;
 }
-#menu ul{
-  position: fixed;
-  top: 0;
-  width: 100%;
-}
+
 
 
 #menu .submenu li button:active{
@@ -81,9 +76,7 @@ box-shadow: none;
 transform: translateY(3px);
 transition: cubic-bezier(0.075, 0.82, 0.165, 1);
 }
-#menu a .submenu ul li{
-  position: fixed;
-}
+
 #hihi{
   font-size: 13px;
   background-color: #100a0a;
@@ -144,10 +137,7 @@ transition: cubic-bezier(0.075, 0.82, 0.165, 1);
   border: 1px solid ;
   opacity: 80%;
 }
-.pr h1 > #muc{
-  
-  display: none;
-}
+
 .pr ul #muc li {
 position: relative;
 } 
